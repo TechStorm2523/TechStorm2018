@@ -48,7 +48,7 @@ public class PathfinderPoint2D{
         	
         }
         
-        public Point2D.Double safePoint(Line2D.Double path, Line2D.Double obs){
+        public Point2D.Double safePlace(Line2D.Double path, Line2D.Double obs){
         	
         	double theta = angleFromLine(path, 0);
         	double xStepBack = SAFE_DIST*(Math.cos(theta));
@@ -58,15 +58,14 @@ public class PathfinderPoint2D{
         }
         
         public Line2D.Double safeLine(double OrigTheta, Point2D.Double origin, Point2D.Double goalCopy, Line2D.Double obs){
-			Line2D.Double safeLine = new Line2D.Double(origin, goalCopy);
+			
+        	int degreestos
+        	
+        	Line2D.Double safeLine = new Line2D.Double(origin, goalCopy);
 			
 			while(safeLine.intersectsLine(obs)) {
-				if(positiveLast) {
-					goalCopy.setLocation(goalCopy.getX(), goalCopy.getY()-1);
-					safeLine.setLine(origin, );
-				} else {
-					
-				}
+				
+				
 				
 				
 			}
