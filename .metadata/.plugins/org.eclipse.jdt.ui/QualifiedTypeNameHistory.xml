@@ -2,4 +2,18 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.awt.geom.Line2D.Double"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.subsystems.ArmSystem"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Spark"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.RobotMap"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.RobotDrive"/>
+<fullyQualifiedTypeName name="com.ctre.phoenix.motorcontrol.can.TalonSRX"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.subsystems.DriveTrain"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.subsystems.ClampSystem"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Joystick"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.drive.DifferentialDrive"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.SpeedControllerGroup"/>
+<fullyQualifiedTypeName name="com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX"/>
+<fullyQualifiedTypeName name="org.omg.PortableInterceptor.ObjectIdHelper"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.OI"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.Robot"/>
 </qualifiedTypeNameHistroy>

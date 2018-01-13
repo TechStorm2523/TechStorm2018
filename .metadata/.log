@@ -1273,3 +1273,147 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 15:48:17.011
 !MESSAGE Project: Robot Code 2018 Package: org.usfirst.frc.team2523.robot Project Type: edu.wpi.first.wpilib.plugins.java.wizards.newproject.JavaProjectType$4@722af653
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.167
+!MESSAGE [org.usfirst.frc.team2523.robot.subsystems [in src [in Robot Code 2018]]]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.182
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.198
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.198
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:23.532
+!MESSAGE Class: DriveTrain Package: org.usfirst.frc.team2523.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:14.989
+!MESSAGE [org.usfirst.frc.team2523.robot.subsystems [in src [in Robot Code 2018]]
+  [Working copy] DriveTrain.java
+    package org.usfirst.frc.team2523.robot.subsystems
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class DriveTrain
+      front RobotDrive
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:15.005
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:15.005
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:15.020
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:20.337
+!MESSAGE Class: ClampSystem Package: org.usfirst.frc.team2523.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.964
+!MESSAGE [org.usfirst.frc.team2523.robot.subsystems [in src [in Robot Code 2018]]
+  [Working copy] DriveTrain.java
+    package org.usfirst.frc.team2523.robot.subsystems
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class DriveTrain
+      front RobotDrive
+      void initDefaultCommand()
+  [Working copy] ClampSystem.java
+    package org.usfirst.frc.team2523.robot.subsystems
+    import org.usfirst.frc.team2523.robot.RobotMap
+    import edu.wpi.first.wpilibj.Spark
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class ClampSystem
+      Spark clampMotor
+      void openClamp()
+      void closeClamp()
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.980
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.980
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.995
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:18.152
+!MESSAGE Class: LiftSystem Package: org.usfirst.frc.team2523.robot.subsystems
+
+!ENTRY riolog 1 0 2018-01-12 17:17:42.761
+!MESSAGE exiting listener
+!SESSION 2018-01-12 18:40:12.086 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:25.570
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:25.617
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:25.789
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:26.086
+!MESSAGE Installedcommon
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-12 18:40:26.633
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\FIRST'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:27.972
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:28.081
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 18:40:28.347
+!MESSAGE Updating projects
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 18:40:29.207
+!MESSAGE Adding: CTRE_Phoenix-sources.jar to project: Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 18:40:29.269
+!MESSAGE Adding: CTRE_Phoenix.jar to project: Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.154
+!MESSAGE [org.usfirst.frc.team2523.robot.commands [in src [in Robot Code 2018]]]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.154
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.170
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.170
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:22.542
+!MESSAGE Class: dfoief Package: org.usfirst.frc.team2523.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.619
+!MESSAGE [org.usfirst.frc.team2523.robot.commands [in src [in Robot Code 2018]]]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.619
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.635
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.651
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:50.698
+!MESSAGE Class: Drive Package: org.usfirst.frc.team2523.robot.commands
+
+!ENTRY riolog 1 0 2018-01-12 19:57:30.454
+!MESSAGE exiting listener
