@@ -1109,3 +1109,311 @@ java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
 =======
 >>>>>>> bb9308e88687362e35180c2733f8b837e3f47f19
+!SESSION 2018-01-11 16:53:14.497 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-11 16:53:52.224
+!MESSAGE Unable to load resource file:/C:/Code/TechStorm2018/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+!STACK 0
+org.eclipse.emf.ecore.resource.impl.ResourceSetImpl$1DiagnosticWrappedException: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Code/TechStorm2018/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Code/TechStorm2018/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 75; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.handleDemandLoadException(ResourceSetImpl.java:319)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:278)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.getResource(ResourceSetImpl.java:406)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.getResource(ResourceHandler.java:286)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadResource(ResourceHandler.java:262)
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:169)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:378)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:253)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:614)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+Caused by: org.xml.sax.SAXParseExceptionpublicId: file:/C:/Code/TechStorm2018/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; systemId: file:/C:/Code/TechStorm2018/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi; lineNumber: 75; columnNumber: 2; The content of elements must consist of well-formed character data or markup.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.startOfMarkup(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl.parse(Unknown Source)
+	at org.eclipse.emf.ecore.xmi.impl.XMLLoadImpl.load(XMLLoadImpl.java:175)
+	at org.eclipse.emf.ecore.xmi.impl.XMLResourceImpl.doLoad(XMLResourceImpl.java:261)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1518)
+	at org.eclipse.emf.ecore.resource.impl.ResourceImpl.load(ResourceImpl.java:1297)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoad(ResourceSetImpl.java:259)
+	at org.eclipse.emf.ecore.resource.impl.ResourceSetImpl.demandLoadHelper(ResourceSetImpl.java:274)
+	... 23 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-11 16:53:52.255
+!MESSAGE The persisted application model has no top-level window. Reinitializing with the default application model.
+!STACK 0
+java.lang.Exception
+	at org.eclipse.e4.ui.internal.workbench.ResourceHandler.loadMostRecentModel(ResourceHandler.java:174)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.loadApplicationModel(E4Application.java:378)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:253)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:614)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:06.245
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:06.355
+!MESSAGE Install necessary for tools
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-11 16:54:07.401
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\FIRST'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:17.950
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:17.982
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:17.997
+!MESSAGE Install necessary for common
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:25.248
+!MESSAGE Installedcommon
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:25.263
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:25.294
+!MESSAGE Install necessary for java
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-11 16:54:50.374
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-11 16:54:50.389
+!MESSAGE Updating projects
+
+!ENTRY riolog 1 0 2018-01-11 18:57:41.689
+!MESSAGE exiting listener
+!SESSION 2018-01-12 15:38:17.232 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 15:38:49.991
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 15:38:50.069
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 15:38:50.257
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 15:38:50.397
+!MESSAGE Installedcommon
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-12 15:38:51.600
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\FIRST'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 15:38:56.810
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 15:38:56.810
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 15:38:56.825
+!MESSAGE Updating projects
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 15:48:17.011
+!MESSAGE Project: Robot Code 2018 Package: org.usfirst.frc.team2523.robot Project Type: edu.wpi.first.wpilib.plugins.java.wizards.newproject.JavaProjectType$4@722af653
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.167
+!MESSAGE [org.usfirst.frc.team2523.robot.subsystems [in src [in Robot Code 2018]]]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.182
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.198
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:16.198
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:09:23.532
+!MESSAGE Class: DriveTrain Package: org.usfirst.frc.team2523.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:14.989
+!MESSAGE [org.usfirst.frc.team2523.robot.subsystems [in src [in Robot Code 2018]]
+  [Working copy] DriveTrain.java
+    package org.usfirst.frc.team2523.robot.subsystems
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class DriveTrain
+      front RobotDrive
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:15.005
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:15.005
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:15.020
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:14:20.337
+!MESSAGE Class: ClampSystem Package: org.usfirst.frc.team2523.robot.subsystems
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.964
+!MESSAGE [org.usfirst.frc.team2523.robot.subsystems [in src [in Robot Code 2018]]
+  [Working copy] DriveTrain.java
+    package org.usfirst.frc.team2523.robot.subsystems
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class DriveTrain
+      front RobotDrive
+      void initDefaultCommand()
+  [Working copy] ClampSystem.java
+    package org.usfirst.frc.team2523.robot.subsystems
+    import org.usfirst.frc.team2523.robot.RobotMap
+    import edu.wpi.first.wpilibj.Spark
+    import edu.wpi.first.wpilibj.command.Subsystem
+    class ClampSystem
+      Spark clampMotor
+      void openClamp()
+      void closeClamp()
+      void initDefaultCommand()]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.980
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.980
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:10.995
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 16:20:18.152
+!MESSAGE Class: LiftSystem Package: org.usfirst.frc.team2523.robot.subsystems
+
+!ENTRY riolog 1 0 2018-01-12 17:17:42.761
+!MESSAGE exiting listener
+!SESSION 2018-01-12 18:40:12.086 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_151
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:25.570
+!MESSAGE Installing tools if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:25.617
+!MESSAGE Installedtools
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:25.789
+!MESSAGE Installing common if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:26.086
+!MESSAGE Installedcommon
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-12 18:40:26.633
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\FIRST'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:27.972
+!MESSAGE Installing java if necessary
+
+!ENTRY edu.wpi.first.wpilib.plugins.core 1 0 2018-01-12 18:40:28.081
+!MESSAGE Installedjava
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 18:40:28.347
+!MESSAGE Updating projects
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 18:40:29.207
+!MESSAGE Adding: CTRE_Phoenix-sources.jar to project: Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 18:40:29.269
+!MESSAGE Adding: CTRE_Phoenix.jar to project: Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.154
+!MESSAGE [org.usfirst.frc.team2523.robot.commands [in src [in Robot Code 2018]]]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.154
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.170
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:18.170
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:22.542
+!MESSAGE Class: dfoief Package: org.usfirst.frc.team2523.robot.commands
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.619
+!MESSAGE [org.usfirst.frc.team2523.robot.commands [in src [in Robot Code 2018]]]
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.619
+!MESSAGE class org.eclipse.jdt.internal.core.PackageFragment
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.635
+!MESSAGE initialize
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:45.651
+!MESSAGE Project: P/Robot Code 2018
+
+!ENTRY WPILib_Java_Robot_Development 1 0 2018-01-12 19:36:50.698
+!MESSAGE Class: Drive Package: org.usfirst.frc.team2523.robot.commands
+
+!ENTRY riolog 1 0 2018-01-12 19:57:30.454
+!MESSAGE exiting listener
