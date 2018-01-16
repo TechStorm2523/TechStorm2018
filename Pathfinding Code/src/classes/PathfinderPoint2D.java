@@ -5,7 +5,8 @@ import java.awt.geom.*;
 public class PathfinderPoint2D{
 	// m= (y2-y1)/(x2-x1)
 	// y= mx + (y1-(m*x1)
-	
+	//DeltaX = -rSin(theta - pi/2 + startAngle)
+	//DeltaY = rCos(theta - pi/2 + startAngle)
 	double y1a, y2a, x1a, x2a, y1b, y2b, x1b, x2b;
 	double mA, mB;
 	double bA, bB;
@@ -48,6 +49,21 @@ public class PathfinderPoint2D{
         	
         }
         
+        public double getDeltaXForArc(double startAngle, double theta) {
+        	//DeltaX = -rSin(theta - pi/2 + startAngle)
+        	return -Math.toDegrees(Math.sin(Math.toRadians(theta - 90 + startAngle)));
+        }
+        public double getDeltaYForArc(double startAngle, double theta) {
+        	//DeltaY = rCos(theta - pi/2 + startAngle)
+        	return Math.toDegrees(Math.cos(Math.toRadians(theta - 90 + startAngle)));
+        }
+        public Line2D.Double lineOnSlopeForDistance(Line2D.Double path, double distance) {
+        	double theta = angleFromLine(path, 0);
+        	double xStepBack = SAFE_DIST*(Math.cos(theta));
+        	double yStepBack = SAFE_DIST*(Math.sin(theta));
+        	
+        	return new Point2D.Double(getXofIntersect(path, obs)-xStepBack, getYofIntersect(path, obs)-yStepBack);
+        }
         public Point2D.Double safePlace(Line2D.Double path, Line2D.Double obs){
         	
         	double theta = angleFromLine(path, 0);
@@ -59,7 +75,7 @@ public class PathfinderPoint2D{
         
         public Line2D.Double safeLine(double OrigTheta, Point2D.Double origin, Point2D.Double goalCopy, Line2D.Double obs){
 			
-        	int degreestos
+        	
         	
         	Line2D.Double safeLine = new Line2D.Double(origin, goalCopy);
 			

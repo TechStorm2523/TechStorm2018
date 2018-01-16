@@ -26,5 +26,6 @@ public class RobotMap {
 	
 	public static int clampMotor = 1;
 	public static int liftmotor  = 1;
+	public static int swingMotor = 1;
 	
 }

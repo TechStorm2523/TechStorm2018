@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.awt.geom.Line2D.Double"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.subsystems.ArmSystem"/>
 <fullyQualifiedTypeName name="edu.wpi.first.wpilibj.Spark"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.RobotMap"/>
@@ -15,5 +14,13 @@
 <fullyQualifiedTypeName name="com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX"/>
 <fullyQualifiedTypeName name="org.omg.PortableInterceptor.ObjectIdHelper"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.OI"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.awt.geom.Line2D.Double"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.subsystems.LiftSystem"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.JoystickButton"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.Button"/>
+<fullyQualifiedTypeName name="edu.wpi.first.wpilibj.buttons.Trigger"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.commands.ClampSystemClose"/>
+<fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.commands.ClampSystemOpen"/>
 <fullyQualifiedTypeName name="org.usfirst.frc.team2523.robot.Robot"/>
 </qualifiedTypeNameHistroy>

@@ -24,6 +24,11 @@ public class LiftSystem extends Subsystem {
 		Liftmotor.set(-1);
 	
 	}
+	public void LiftStop() {
+		
+		Liftmotor.set(0);
+	
+	}
     public void initDefaultCommand() {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());

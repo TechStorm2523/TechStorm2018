@@ -15,6 +15,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import org.usfirst.frc.team2523.robot.commands.ExampleCommand;
 import org.usfirst.frc.team2523.robot.subsystems.ClampSystem;
 import org.usfirst.frc.team2523.robot.subsystems.DriveTrain;
+import org.usfirst.frc.team2523.robot.subsystems.LiftSystem;
 
 /**
  * The VM is configured to automatically run this class, and to call the
@@ -28,6 +29,8 @@ public class Robot extends TimedRobot {
 			= new DriveTrain();
 	public static final ClampSystem kClampSystem
 			= new ClampSystem();
+	public static final LiftSystem kLiftSystem
+	= new LiftSystem();
 	public static OI m_oi;
 
 	Command m_autonomousCommand;
